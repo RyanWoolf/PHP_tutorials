@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+   <form action="upload.php" enctype="multipart/form-data" method="POST">
+    <input type="hidden" name="MAX_FILE_SIZE" value="3000000"/>
+    <input type="file" name="userfile">
+    <!-- _FILES 변수 어레이 안에 유저파일이라는 인덱스 이름이로 저장된다 -->
+    <input type="submit" value="upload">
+   </form>
+
+
+  
+</body>
+</html>
