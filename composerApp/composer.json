@@ -1,0 +1,17 @@
+{
+    "name": "lionwolf/composer-app",
+    "autoload": {
+        "psr-4": {
+            "Lionwolf\\ComposerApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryan CHANG-HA LEE",
+            "email": "13410@coderacademy.edu.au"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.3"
+    }
+}
